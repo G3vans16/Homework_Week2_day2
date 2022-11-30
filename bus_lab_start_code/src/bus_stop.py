@@ -10,6 +10,8 @@ class BusStop:
         self.queue.append(person)
 
     def clear(self):
-        for person in self.queue:
-            self.queue.remove(person)
+        # for person in self.queue:
+        #     self.queue.remove(person)
+
+        self.queue.clear()
     
